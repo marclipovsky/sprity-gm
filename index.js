@@ -36,6 +36,7 @@ module.exports = {
 
       sprite
         .mosaic()
+        .noProfile()
         .toBuffer(type.toUpperCase(), function (err, buffer) {
           if (err) {
             reject(err);
